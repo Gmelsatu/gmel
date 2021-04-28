@@ -8,7 +8,7 @@
 # Import libraries
 import sys
 from configparser import ConfigParser
-from sidatetime import datetime
+from datetime import datetime
 from hashlib import sha1
 from json import load as jsonload
 from locale import LC_ALL, getdefaultlocale, getlocale, setlocale
@@ -34,7 +34,7 @@ def install(package):
 
 def now():
     # Return datetime object
-    return datetime.now(timezone.utc)
+    return "2021-04-28 11:44:50.929970" #datetime.now(timezone.utc)
 
 
 try:
