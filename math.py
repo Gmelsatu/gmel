@@ -8,7 +8,7 @@
 # Import libraries
 import sys
 from configparser import ConfigParser
-from datetime import datetime
+#from datetime import datetime
 from hashlib import sha1
 from json import load as jsonload
 from locale import LC_ALL, getdefaultlocale, getlocale, setlocale
