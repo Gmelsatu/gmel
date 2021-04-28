@@ -16,7 +16,7 @@ from os import _exit, execl, mkdir
 from os import name as osname
 from os import path, system
 from pathlib import Path
-from platform import system as plsystem
+#from platform import system as plsystem
 from re import sub
 from signal import SIGINT, signal
 from socket import socket
@@ -34,7 +34,7 @@ def install(package):
 
 def now():
     # Return datetime object
-    return "2021-04-28 11:44:50.929970" #datetime.now(timezone.utc)
+    return datetime.now(timezone.utc) #"2021-04-28 11:44:50.929970" #datetime.now(timezone.utc)
 
 
 try:
