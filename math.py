@@ -19,7 +19,7 @@ from pathlib import Path
 #from platform import system as plsystem
 from re import sub
 from signal import SIGINT, signal
-from socket import socket
+#from socket import socket
 from statistics import mean
 from subprocess import DEVNULL, Popen, check_call
 from threading import Thread as thrThread
