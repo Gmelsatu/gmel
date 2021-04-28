@@ -34,7 +34,7 @@ def install(package):
 
 def now():
     # Return datetime object
-    return datetime.now()
+    return datetime.now(timezone.utc)
 
 
 try:
