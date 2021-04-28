@@ -20,7 +20,7 @@ from pathlib import Path
 from re import sub
 from signal import SIGINT, signal
 #from socket import socket
-from statistics import mean
+#from statistics import mean
 from subprocess import DEVNULL, Popen, check_call
 from threading import Thread as thrThread
 from time import ctime, sleep, strptime, time
